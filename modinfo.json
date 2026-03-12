@@ -1,8 +1,8 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "warpcorp",
-    "name": "Warp Corp Test",
+    "id": "looking-glass",
+    "name": "Through the Looking Glass",
     "authors": [ "흰토끼", "auram", "naz", "NakedJake" ],
     "description": "Adds various references to Project Moon games, mainly Warp Corp items for now. Special thanks to NakedJake for making the W-Corp Katana sprite!",
     "category": "misc_additions",

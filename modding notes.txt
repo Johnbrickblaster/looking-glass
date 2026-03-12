@@ -1,10 +1,18 @@
-to cleanup
-rabbit mutations, remove mouth, figure out how to modify albino
+to do 3/12/26
+first release should have: 
+all implemented items should have sprites
+all implemented items should be accessible ingame - debug for now?
+figure out translations - check documentation online
+aim for a .1 release with... 
 
 to add
 
 ITEMS
-Looking Glass
+Looking Glass - made from glass parts, needs to be installed in car/base
+extract enkephalin from corpses, convert into PE boxes, 
+
+
+==Wings==
 
 R-Corp
 R-Corp Rabbit Armor
@@ -12,30 +20,48 @@ R-Corp Rabbit Helmet
 R-Corp Knife
 R-Corp Reindeer Horns Bionic
 R-Corp Rabbit Eyes Bionic
-R-Corp Bnuuy mutation serum
+R-Corp Bnuuy mutation serum <- technically basegame now lmao
 R-Corp Mind Flail
-R-Corp Energy pack
+R-Corp Energy pack (Reindeer backpack thing)
 R-Corp Rhino Powered Armor
 Adrenalin Junkie bionic
 
 W-Corp
 W-Corp Cleanup Crew Armor
-W-Corp Cleanup Crew Uniform (separate Pants, Hat, Dress Shirt, Chestplate
+W-Corp Cleanup Crew Uniform (separate Pants, Hat, Dress Shirt, Chestplate) - maybe? maybe just one 'uniform item' instead?
 W-Corp Cleanup Crew Weaponry (hand axe, kukri, katana) - E-type Dimensional
 L2 - polearm, katana
 L3 - kukri, knife, axe, gauntlet (Dimensional Ripple Gauntlets)
 actually, it's closer to a kopis or falcata than a kukri - look at https://www.youtube.com/watch?v=0F-VVjqarZE , i'm fairly certain that it's a reference to that
+L4 - Exoskeleton, elbow laser blade
+
+F-Corp
+Fairy Key - unlikely until figure out LUA - or... look at lockpicking
+
+K-Corp
+Helapoiesis Ampoule - look for instances of instant health gain
+
+MAYBES
+X-Corp Superalloys - unified material for modded items
+Nuevo Fabric
+T-Corp Time Accelerated Cooking Pot
+T-Corp Overclocked Pocketwatch
+U-Corp Resonance Tuning Fork
+U-Corp Stasis Preservation Box
+U-Corp Perfectly Preserved Box Lunch 
+P-Corp Permanent Preservation 
+N-Corp Canned Experience
+Enkephalin Batteries
+Enkephalin drugs (cigs, injectors)
+meat grinder car part? - extracts Enkephalin from living things - need to figure out <reaper> tag - either gets stored in 
+
+==Associations/Offices==
 
 Devyat Association
 Devyat Courier's Jacket
-Courier Trunk
+Courier Trunk -WIP
 AI - Poludnitsa ???
 
-F-Corp
-Fairy Key
-
-K-Corp
-Helapoiesis Ampoule
 
 Shi Association
 
@@ -48,35 +74,41 @@ Zwei Bodyguard Uniform
 Zwei West Branch Knight Armor
 
 MultiCrack Office
-Model 40Y-3 (heat and explosive resistant, replacable to regain hp and armor)(also, four arms)
+Model 40Y-3 (heat and explosive resistant, replaceable to regain hp and armor)(also, four arms)
 Trinary Ocular Prosthesis
 Photoelectric Harpoon
 MultiCrack Office Uniform (resist blunt, weak to pierce)
 
+Liu Association weapons (all deal fire damage)
+
+Cane Office Nemo's head replacement bionic? (face beaaaaaaam)
+
+==Syndicates/Fingers==
+
+==Enemies==
+potential enemy implementations
+Abnos?
+
+Ordeals
+Green
+Orange
+
+Enemies? - Peccatulum, mermaids, abnormalities?
+
+=====
 CHARGE mechanic
 could be new battery resource type- gain on hit? need to figure out how to do that- activate it into active weapon type, then consume on attack- i'm pretty sure
 i saw a mod that does that before, look for that- las sword or chainsword or something- vanilla chainsaw?
+for now, having charge be a martial arts buff
 
 Stigma Workshop Sword (burn damage)
 
 The Thumb Soldat Rifle (reloads on melee hit, heavy weight, bayonette and blunt stock)
 
 
-MAYBES
-X-Corp Superalloys
-Nuovo Fabric
-T-Corp Time Accelerated Cooking Pot
-T-Corp Overclocked Pocketwatch
-U-Corp Resonance Tuning Fork
-U-Corp Stasis Preservation Box
-U-Corp Perfectly Preserved Box Lunch 
-P-Corp Permanent Preservation 
-N-Corp Canned Experience
-Enkephalin Batteries
-Enkephalin drugs (cigs, injectors)
-meat grinder car part? - extracts Enkephalin from living things - need to figure out <reaper> tag - either gets stored in 
 
-Enemies? - Peccatulum, mermaids, abnormalities?
+
+
 
 EGO Gifts? - would be nice filler items - start with... (Wrist Guards, T-1B Octagonal Bolt, Material Interference Force Field, T-1 Perpetual Motion Machine,
 Biogenerative Battery, Prosthetic Joint Servos, Cardiovascular Reactive Module, Lightning Rod, Charge-type Gloves, UPS System (Upgrade), Uncapped Defibrilator,
@@ -85,9 +117,7 @@ E-Type Dimensional Dagger
 Portable Barrier Battery
 Blue Zippo Lighter
 
-Liu Association weapons (all deal fire damage)
 
-Cane Office Nemo's head replacement bionic? (face beaaaaaaam)
 
 
 notes
@@ -96,9 +126,7 @@ graphics are determined by tile_config.json, use nechronica redux and project pa
 references are key apparently in the code here, so the documentation says
 
 
-
-
-
+wooo gacha in my cataclysm
 box of possibilities
 
 group one: weapon
@@ -107,3 +135,5 @@ group two: armor
 group two: armor
 
 group three: items
+
+should have at least *something* useful at any point of game in each box pool - or each 'pull'
