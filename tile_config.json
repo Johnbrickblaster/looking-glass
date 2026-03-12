@@ -1,0 +1,25 @@
+{
+  "type": "mod_tileset",
+  "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MSX++DEAD_PEOPLE" ],
+  "tiles-new": [ {
+    "file": "tiles.png",
+    "sprite_width": 32,
+    "sprite_height": 32,
+    "sprite_offset_x": 0,
+    "sprite_offset_y": 0,
+    "tiles": [ { "id": "wc_katana_off", "fg": 1, "rotates": false },
+               { "id": "overlay_wielded_wc_katana_off", "fg": 2, "rotates": false },
+               { "id": "wc_katana_on", "fg": 1, "rotates": false },
+               { "id": "overlay_wielded_wc_katana_on", "fg": 2, "rotates": false },
+               { "id": "rc_staff", "fg": 3, "rotates": false },
+               { "id": "rc_rabbit_armor", "fg": 4, "rotates": false},
+               { "id": "overlay_worn_rc_rabbit_armor", "fg": 6, "rotates": false},
+               { "id": "wg_courierbag", "fg": 7, "rotates": false},
+               { "id": "overlay_worn_courierbag", "fg": 7, "rotates": false},
+               { "id": "overlay_wielded_courierbag", "fg": 7, "rotates": false},
+               { "id": "wc_cap", "fg": 8, "rotates": false},
+               { "id": "overlay_worn_wc_cap", "fg": 8, "rotates": false}
+               ],
+    "overlay_ordering": []
+  } ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "rc_rabbit_armor",
+    "type": "ARMOR",
+    "name": { "str": "rabbit armor" },
+    "description": "A lightweight bodysuit famously worn by the Rabbits of the 4th Pack. You're unsure of the tactical advantage of the white bunny tail and pawpads on the soles",
+    "weight": "5100 g",
+    "volume": "10500 ml",
+    "price": "1100 USD",
+    "price_postapoc": "50 USD",
+    "material": [ "kevlar", "superalloy" ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [ "legs", "torso", "arms", "hands", "feet" ],
+    "coverage": 100,
+    "encumbrance": 20,
+    "storage": "4 L",
+    "warmth": 10,
+    "material_thickness": 4,
+    "valid_mods": [ "steel_padded", "alloy_padded" ],
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY" ]
+  },
+{
+  "id": "wc_cap",
+  "repairs_like": "balclava",
+  "type": "ARMOR",
+  "name": {
+    "str": "w-corp uniform cap"
+  },
+  "//": "Head encumbrance stops you from wearing additional headgear.  No helmet over a ballcap, sorry.  But brimmed gear gets the anti-glare flag!",
+  "description": "A plain cap with the Warp Corp logo embroidered on it.",
+  "weight": "88 g",
+  "volume": "500 ml",
+  "price": "25 USD",
+  "price_postapoc": "50 cent",
+  "material": [
+    "cotton"
+  ],
+  "symbol": "[",
+  "color": "dark_gray",
+  "covers": [
+    "head"
+  ],
+  "coverage": 50,
+  "encumbrance": 10,
+  "warmth": 5,
+  "material_thickness": 1,
+  "environmental_protection": 2,
+  "valid_mods": [
+    "resized_large",
+    "resized_small"
+  ],
+  "flags": [
+    "SUN_GLASSES",
+    "ALLOWS_NATURAL_ATTACKS",
+    "ALLOWS_HORNS"
+  ]
+}
+]
